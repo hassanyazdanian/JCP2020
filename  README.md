@@ -1,1 +1,4 @@
-code for fast Biot-Savart integral evaluation
+In this project, we present codes for fast and efficient technique to evaluate 
+the Biot-Savart integral based on the fast Fourier transform (FFT). The method 
+can calculate magnetic fields in realistic human head models 
+in one minute on a standard computer, while keeping error below 2%.
