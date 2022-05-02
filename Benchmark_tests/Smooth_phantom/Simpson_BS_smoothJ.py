@@ -180,4 +180,4 @@ for idx in range(0,len(mR)):
     Erms[idx] = 100*np.sqrt(np.sum((Bxa-Ix)**2)+np.sum((Bya-Iy)**2)+np.sum((Bza-Iz)**2))/np.sqrt(np.sum(Bxa**2)+np.sum(Bya**2)+np.sum(Bza**2))
 
 print('Erms=',Erms)
-print('elapsed time=',TIME)
+print('Elapsed time=',TIME)
