@@ -10,7 +10,7 @@
     
     Fast evaluation of Biot-Savart Integral using FFTCONVOLVE method!
     
-    This is the benchmark test 2 (Piecewise Smooth phantom) to o validate
+    This is the benchmark test 2 (Piecewise Smooth phantom) to validate
     the technique developed to compute the Biot-Savart integral.
     Important notice: if our computation domain resides on -s to s,
     the current density field should be zero outside of (at least) -s/2 to s/2.
