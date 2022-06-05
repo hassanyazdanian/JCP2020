@@ -100,7 +100,7 @@ def FFTCONV(h,Jx,Jy,Jz):
 s = 2	                    # define the size ofcomputional domain  (-s to s)               
 r = 1	                    # radii of mask
 mu0 = 1	                    # we assumed that mu0=1
-mR = [5, 6]        # M=2^mR[i] where M is umber of grid points in each direction.
+mR = [5, 6, 7, 8, 9]        # M=2^mR[i] where M is umber of grid points in each direction.
 
 Erms = np.zeros(len(mR))    # Error vector
 TIME = np.zeros(len(mR))    # Time vector
